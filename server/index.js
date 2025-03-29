@@ -1,8 +1,9 @@
 // server/index.js
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-require('dotenv').config();
+
 
 const authRoutes = require('./routes/auth');
 const taskRoutes = require('./routes/tasks');
