@@ -15,7 +15,7 @@ const SignUp = () => {
   const onSubmit = async e => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5002/api/register', formData);
+      await axios.post('http://localhost:5002/api/register', formData);
       // After successful registration, redirect to login or auto-login as desired.
       history.push('/login');
     } catch (err) {

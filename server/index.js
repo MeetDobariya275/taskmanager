@@ -9,6 +9,7 @@ const taskRoutes = require('./routes/tasks');
 
 const app = express();
 
+
 // Middleware
 app.use(express.json());
 app.use(cors());
