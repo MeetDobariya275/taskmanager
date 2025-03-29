@@ -12,10 +12,8 @@ const TodoList = () => {
 
   // Configure axios to include the token
   const axiosInstance = axios.create({
-    baseURL: 'http://localhost:5002',
-    headers: {
-      Authorization: `Bearer ${token}`,
-    },
+    baseURL: process.env.REACT_APP_API_URL,
+    headers: { Authorization: `Bearer ${token}` },
   });
 
   const fetchTasks = async () => {
