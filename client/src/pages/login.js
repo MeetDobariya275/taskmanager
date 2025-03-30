@@ -18,7 +18,6 @@ const Login = () => {
     e.preventDefault();
     try {
       const res = await axios.post(`${process.env.REACT_APP_API_URL}/api/login`, formData);
-
       // Save the token using context
       login(res.data.token);
       history.push('/');
