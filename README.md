@@ -19,7 +19,7 @@ A full-stack Task Manager app that allows users to register, log in, and manage 
 
 1. **Clone the Repository:**  
    Open your terminal and run:
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/MeetDobariya275/taskmanager.git
 3. **Back End Setup:**  
 Navigate to the `server` folder, install dependencies, and set up environment variables.
 - Change directory:
@@ -85,4 +85,6 @@ For production deployments:
   committed to your public repository.
 - Use environment variables on your deployment platforms to keep your secrets secure.
 
-
+## Licences
+- https://idyllic-squirrel-4ad8e6.netlify.app/login
+- the above link is live for this app
