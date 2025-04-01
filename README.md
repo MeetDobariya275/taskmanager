@@ -86,5 +86,5 @@ For production deployments:
 - Use environment variables on your deployment platforms to keep your secrets secure.
 
 ## Licences
-- https://idyllic-squirrel-4ad8e6.netlify.app/login
+- https://67ec275d8c00323d845fcb5a--idyllic-squirrel-4ad8e6.netlify.app/login
 - the above link is live for this app
